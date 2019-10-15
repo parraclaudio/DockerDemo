@@ -1,5 +1,8 @@
 # DockerDemo
 
+### How to
+Open the prompt, navigate to solution folder and execute the commands below:
+
 ##### Publish the project
 
 ```
