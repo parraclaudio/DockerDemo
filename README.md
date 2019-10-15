@@ -14,7 +14,7 @@ dotnet publish -c Release -o ./app/publish
 docker build -t dockerdemoimage .
 ```
 
-##### Create and start a Docker container based on our image (dockerdemoimage), in the specified port 8080
+##### Create and start a Docker container in the specified port 8080
 ```
 docker run -d -p 8080:80 --name dockerdemoapi dockerdemoimage
 ```
